@@ -1,8 +1,13 @@
 html{
     font-family:"Inter", sans-serif;
     background-color:rgb(208, 233, 201);
+    scroll-behavior:smooth;
 }
-
+h1{
+    font-size:40px;
+    font-weight: 800;
+    font-style:italic;
+}
 .header1{
     display:flex;
     align-items: flex-start;
@@ -26,23 +31,29 @@ nav{
     background-color:rgb(92, 139, 69);
     color:white;
 }
+nav a{
+    color:white;
+    text-decoration:none;
+    align-items:center;
+    font-size:18px;
+}
+
+
+
 #allAboutMe{
     display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
+    align-items:center;
 }
 .title{
     display:flex;
     flex-direction:column;
     color:rgb(60, 102, 50);
-    font-weight: 800;
-    font-size:40px;
-    font-style:italic;
-    margin-left:15%;
-
+    
+    margin-right: 5%;
+    margin-left:10%;
 }
 .title img{
-    width:50%;
+    width:500px;
     height:auto;
     border-radius: 10px;
     border: 3px solid rgb(60, 102, 50);
@@ -50,5 +61,45 @@ nav{
 .aboutMe{
     display:flex;
     flex-direction:column;
-    margin-left:0px;
+    align-items: flex-start;
+    margin-top:1%;
+    margin-right:10%
+}
+.aboutMe p{
+    font-size:25px;
+}
+.items:hover{
+    background-color:rgb(167, 221, 140);
+}
+ul{
+    font-size:25px;
+}
+.aboutMe img{
+    width: 300px;
+    border-radius:10px;
+}
+a{
+    font-size:25px;
+    
+}
+.github{
+    margin-top:1.3%;
+    margin-left:10%;
+}
+.github ul{
+    font-size:20px;
+}
+.github p{
+    font-size:25px;
+}
+#portfolioContainer{
+    display:flex;
+}
+.artPortfolio{
+    font-size:25px;
+    margin-left:5%;
+}
+
+#resumePDF{
+    margin-left:10%
 }
